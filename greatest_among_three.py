@@ -1,0 +1,11 @@
+a = int(input())
+b = int(input())
+c = int(input())
+
+# code here
+if a > b:
+    print(a)
+elif b > c:
+    print(b)
+else:
+    print(c)
