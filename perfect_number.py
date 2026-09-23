@@ -20,3 +20,17 @@ def is_perfect(n):
     return total == n
 
 print(is_perfect(15))
+
+
+# perfect number yes or not
+n = int(input())
+total = 0
+for i in range(1, n):
+    if n % i == 0:
+        total += i
+
+if total == n:
+    print("Yes")
+
+else:
+    print("No")
